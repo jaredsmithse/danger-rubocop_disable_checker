@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.version       = RubocopDisableChecker::VERSION
   spec.authors       = ["Jared Smith"]
   spec.email         = ["jared.smith@chime.com"]
-  spec.description   = "A short description of danger-rubocop_disable_checker."
-  spec.summary       = "A longer description of danger-rubocop_disable_checker."
-  spec.homepage      = "https://github.com/Jared Smith/danger-rubocop_disable_checker"
+  spec.description   = "A Danger plugin to check for RuboCop disable comments."
+  spec.summary       = "Checks for circumvention of RuboCop via `rubocop:disabe` and " \
+                       "links to documentation of the rule for each one (if there is any)."
+  spec.homepage      = "https://github.com/jaredsmithse/danger-rubocop_disable_checker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
